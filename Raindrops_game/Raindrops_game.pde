@@ -12,7 +12,7 @@ void setup() {
 
 void draw() {
   println("The score is: " + score);
-  background(200,230,255);
+  background(0,30,100);
   for (int i = 0; i < r.length; i++) {
     r[i].display();
     r[i].drop();
